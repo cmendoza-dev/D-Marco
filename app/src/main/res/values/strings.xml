@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RestauranteTrujillo</string>
+    <string name="email">Correo</string>
+    <string name="password">Clave</string>
+    <string name="sign_up">Iniciar Sesión</string>
+    <string name="cafe">Café Capuccino</string>
+    <string name="jugo">Jugo Mixto Especial de Casa</string>
+    <string name="precio">S/ 10.00</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="text_cafe">El mejor café Capuccino de la ciudad de Trujillo. Los mejores granos dan como resultado el mejor café. </string>
+    <string name="text_jugo"></string>
+    <string name="tituloPlatos">Platos De Marco</string>
+    <string name="abrir_detalle">Abrir detalle</string>
+    <string name="compartir">Compartir</string>
+    <string name="preguntas">Preguntas</string>
+    <string name="registrar">Registrar</string>
+    <string name="buscar">Buscar</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+</resources>

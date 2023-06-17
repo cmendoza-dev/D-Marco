@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690877908202",
+    "project_id": "d-marco-71316",
+    "storage_bucket": "d-marco-71316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690877908202:android:54fb76500d34ca198f4393",
+        "android_client_info": {
+          "package_name": "com.tecsup.edu.restaurantetrujillo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690877908202-r456f7nbs9crrfpfp5ri2uf7q1c64d8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7kY71V2cuEkMxlpTdc4cSJ1zPfsA8Q7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690877908202-r456f7nbs9crrfpfp5ri2uf7q1c64d8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

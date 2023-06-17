@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemBuscar"
+        android:title="@string/buscar" />
+
+    <item
+        android:id="@+id/itemRegistrar"
+        android:title="@string/registrar" />
+
+    <item
+        android:id="@+id/itemPreguntas"
+        android:title="@string/preguntas" />
+</menu>
