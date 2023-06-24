@@ -53,6 +53,7 @@ dependencies {
     // Add the dependencies for the In-App Messaging and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-inappmessaging-display:20.3.2'
+    implementation 'com.google.android.gms:play-services-ads-lite:20.6.0'
 
 
     testImplementation 'junit:junit:4.13.2'

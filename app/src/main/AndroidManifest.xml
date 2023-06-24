@@ -50,7 +50,13 @@
      See README(https://goo.gl/l4GJaQ) for more. -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_stat_notifications_active" />
+            android:resource="@drawable/ic_stat_notifications_active"
+
+            />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6695063907371842~1421191320"
+            />
 
     </application>
 
