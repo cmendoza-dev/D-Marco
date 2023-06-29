@@ -1,7 +1,6 @@
 package com.tecsup.edu.restaurantetrujillo
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.ContextMenu
 import android.view.Menu
 import android.view.MenuItem
@@ -10,7 +9,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
-class PlatosActivity: AppCompatActivity() {
+class PlatosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_platos)
@@ -24,8 +23,6 @@ class PlatosActivity: AppCompatActivity() {
         supportActionBar?.title = "Platos D'Marco"
         val drawable = resources.getDrawable(R.color.cafe_oscuro)
         supportActionBar?.setBackgroundDrawable(drawable)
-
-
 
 
     }
@@ -42,7 +39,7 @@ class PlatosActivity: AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
-        when(item.itemId) {
+        when (item.itemId) {
             R.id.itemPreguntas -> {
                 Toast.makeText(this, "Preguntas", Toast.LENGTH_LONG).show()
             }
@@ -60,11 +57,6 @@ class PlatosActivity: AppCompatActivity() {
         menuInflater.inflate(R.menu.menu_main, menu)
 
     }
-
-
-
-
-
 
 
 }

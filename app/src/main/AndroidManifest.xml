@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RestauranteTrujillo"
         tools:targetApi="31">
+
+        <receiver android:name=".AlarmReceiver" />
+
         <receiver
             android:name=".platosWidget"
             android:exported="false">
@@ -36,15 +42,21 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".PlatosActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".PreguntasActivity" />
+        <activity android:name=".PlacesActivity" />
+        <activity android:name=".ChanChanMapActivity" />
+        <activity android:name=".AlarmaActivity" />
+
 
         <service
-            android:name=".notificacions.FirebaseMessagingService"
+            android:name=".MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
 
         <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
      See README(https://goo.gl/l4GJaQ) for more. -->
@@ -55,8 +67,11 @@
             />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6695063907371842~1421191320"
-            />
+            android:value="ca-app-pub-6695063907371842~1421191320" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA7kY71V2cuEkMxlpTdc4cSJ1zPfsA8Q7o" />
 
     </application>
 

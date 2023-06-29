@@ -59,16 +59,15 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-
     <Button
-        android:id="@+id/btnIngresar"
+        android:id="@+id/btnRegistrar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="@color/orange"
-        android:text="@string/sign_up" />
+        android:backgroundTint="@color/black"
+        android:text="@string/registrar" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -92,15 +91,6 @@
             />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/registerView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:onClick="registerActividad"
-        android:text="Crear una cuenta"
-        android:textColor="@color/white" />
 
 
 </LinearLayout>

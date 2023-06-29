@@ -11,6 +11,7 @@
     <color name="color_text">#484194</color>
     <color name="orange">#d58d3e</color>
     <color name="gris">#eaedef</color>
+    <color name="gris_oscuro">#595959</color>
     <color name="color_cafe">#2e190e</color>
     <color name="color_bebida">#3b271d</color>
     <color name="color_parrafo">#828282</color>
